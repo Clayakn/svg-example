@@ -13,6 +13,11 @@
     <body>
         <!-- Gave svg a boundary height of 250px & width 250px -->
         <svg width="250" height="250">
+             <!-- Rectangle -->
+            <!-- x & y are starting left corner of rectangle -->
+            <!-- rx & ry are used for rounded corners -->
+            <rect rx="25" ry="25" x="25" y="25" height="200" width="200" fill="orange"/>
+
             <!-- Circle -->
             <!-- Radius is 125px, center point x & y is 125px (if cx = 225px then right side of circle would be cut off) -->
             <!-- Fill is similar to background color (default is black), 
@@ -21,10 +26,8 @@
             <circle r="120" cx="125" cy="125" fill="none" stroke="blue" stroke-width="10"/>
             <circle r="70" cx="125" cy="125" fill="none" stroke="blue" stroke-width="10" />
                 
-            <!-- Rectangle -->
-            <!-- x & y are starting left corner of rectangle -->
-            <rect x="25" y="25" height="200" width="200"/>
-        
+            <line x1="10" y1="125" x2="225" y2="225" stroke="green" stroke-width="25"/>
+            
         </svg>
     </body>
 </html>
