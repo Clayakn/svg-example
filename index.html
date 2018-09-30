@@ -11,8 +11,20 @@
         <link rel="stylesheet" href="./index.css">
     </head>
     <body>
+        <!-- Gave svg a boundary height of 250px & width 250px -->
         <svg width="250" height="250">
-            <circle r="125" cx="125" cy="125" />
+            <!-- Circle -->
+            <!-- Radius is 125px, center point x & y is 125px (if cx = 225px then right side of circle would be cut off) -->
+            <!-- Fill is similar to background color (default is black), 
+                stroke is similar to border, stroke-width is border width, 
+                width is half inside and half outside, have to take account radius length as well -->
+            <circle r="120" cx="125" cy="125" fill="none" stroke="blue" stroke-width="10"/>
+            <circle r="70" cx="125" cy="125" fill="none" stroke="blue" stroke-width="10" />
+                
+            <!-- Rectangle -->
+            <!-- x & y are starting left corner of rectangle -->
+            <rect x="25" y="25" height="200" width="200"/>
+        
         </svg>
     </body>
 </html>
