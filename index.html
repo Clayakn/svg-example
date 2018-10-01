@@ -11,28 +11,78 @@
         <link rel="stylesheet" href="./index.css">
     </head>
     <body>
-        <!-- Gave svg a boundary height of 250px & width 250px -->
-        <svg width="250" height="250">
-             <!-- Rectangle -->
-            <!-- x & y are starting left corner of rectangle -->
-            <!-- rx & ry are used for rounded corners -->
-            <rect rx="25" ry="25" x="25" y="25" height="200" width="200" fill="orange"/>
+        <div class="section">
+            <div>
 
-            <!-- Circle -->
-            <!-- Radius is 125px, center point x & y is 125px (if cx = 225px then right side of circle would be cut off) -->
-            <!-- Fill is similar to background color (default is black), 
-                stroke is similar to border, stroke-width is border width, 
-                width is half inside and half outside, have to take account radius length as well -->
-            <circle r="120" cx="125" cy="125" fill="none" stroke="blue" stroke-width="10"/>
-            <circle r="70" cx="125" cy="125" fill="none" stroke="blue" stroke-width="10" />
-            
-            <!-- Line -->
-            <line x1="10" y1="125" x2="225" y2="225" stroke="green" stroke-width="25"/>
-            
-            <!-- Polygon -->
-            <!-- points can create has many corners/points for a shape to be created-->
-            <polygon fill="pink" points="50,50 200,50 200,200"/>
-
-        </svg>
+                <!-- Gave svg a boundary height of 250px & width 250px -->
+                <svg width="250" height="250">
+                    <!-- Circle -->
+                    <!-- Radius is 125px, center point x & y is 125px (if cx = 225px then right side of circle would be cut off) -->
+                    <!-- Fill is similar to background color (default is black), 
+                        stroke is similar to border, stroke-width is border width, 
+                        width is half inside and half outside, have to take account radius length as well -->
+                    <circle r="120" cx="125" cy="125" fill="none" stroke="blue" stroke-width="10"/>
+    
+                </svg>
+                <p>Circle</p>
+            </div>
+            <div>
+                <!-- Gave svg a boundary height of 250px & width 250px -->
+                <svg width="250" height="250">
+    
+                    <!-- Circle -->
+                    <!-- Radius is 125px, center point x & y is 125px (if cx = 225px then right side of circle would be cut off) -->
+                    <!-- Fill is similar to background color (default is black), 
+                        stroke is similar to border, stroke-width is border width, 
+                        width is half inside and half outside, have to take account radius length as well -->
+                    <circle r="120" cx="125" cy="125" fill="none" stroke="blue" stroke-width="10"/>
+                    <circle r="70" cx="125" cy="125" fill="none" stroke="blue" stroke-width="10" />
+    
+                </svg>
+                <p>Doughnut</p>
+            </div>
+            <div>
+                <svg width="250" height="250">
+                    <!-- Rectangle -->
+                    <!-- x & y are starting left corner of rectangle -->
+                    <!-- rx & ry are used for rounded corners, indicates where to start curving -->
+                    <rect rx="0" ry="0" x="25" y="25" height="200" width="200" fill="orange"/>
+                </svg>
+                <p>Rectangle</p>
+            </div>
+            <div>
+                <svg width="250" height="250">
+                       <!-- Line -->
+                        <!-- x1 & y1 are starting points, x2 & y2 are ending points-->
+                       <line x1="10" y1="125" x2="225" y2="225" stroke="green" stroke-width="25"/>
+                </svg>
+                <p>Line</p>
+            </div>
+            <div>
+                <svg width="250" height="250">
+                    <!-- Polygon -->
+                    <!-- points can create has many corners/points for a shape to be created-->
+                    <polygon fill="pink" points="50,50 200,50 200,200"/>
+                </svg>
+                <p>Polygon</p>
+            </div>
+            <div>
+                <svg width=250 height=250>
+                    <circle r="125" cx="125" cy="125" fill="red"/>
+                    <circle r="100" cx="125" cy="125" fill="white"/>
+                    <circle r="75" cx="125" cy="125" fill="red"/>
+                    <!-- blue circle -->
+                    <circle r="50" cx="125" cy="125" fill="blue"/>
+                    <polygon fill="white" points="125,75 100,167 175,115 75,115 150,167"/>
+                    <!-- Standard Star Shape -->
+                    <!-- <polygon points="100,10 40,198 190,78 10,78 160,198"/> -->
+                </svg>
+                <p>Captain America Shield</p>
+                <svg width=250 height=250>
+                        
+                        
+                    </svg>
+            </div>
+        <div/>
     </body>
 </html>
